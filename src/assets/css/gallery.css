@@ -1,0 +1,86 @@
+html {
+    background-color: rgb(241, 208, 244);
+}
+
+h2 { /* < 표시*/
+    position: relative;
+    top: -160px; left: -170px;
+}
+
+h1 {/* ≡ 표시 */
+    position: relative;
+    top: -220px; left: 170px;
+    margin: 10px;
+    height:5px;
+}
+
+h4{ /*gallery*/
+    position: relative;
+    top: -205px; 
+    margin-bottom: -10px;
+    height:5px;
+}
+    
+hr { /*수평선*/
+    background-color: #000000;
+    height:2px; width: 250%;
+    border: 0;
+    position: relative;
+    top: -180px; left: -120px;
+    margin-bottom: -50px;
+    }
+.wrap { /*전체 검정색*/
+    border: 15px solid black;
+    width: 160px; height: 370px;
+    padding: 150px; margin: auto;
+    border-radius: 50px;
+    text-align: center;
+}    
+.box1 { /*핸드폰 카메라 /조그만 검정색*/
+    padding: 0;
+    width:175px; height:30px;
+    background-color:black;
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    position: relative;
+    top: -155px; left:-5px;
+}
+
+*{ /*전체 폰트*/
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+p { /*날짜*/
+    padding: 15px; margin:15px;
+    width: 40px;
+    background-color:rgb(118, 22, 235);
+    border-radius: 15px;
+    color:white;
+    position: relative;
+    top:-10px; left: -5px; 
+}
+
+.chat2 { /*스크롤*/
+    overflow-y: scroll; overflow-x: visible; position: relative;
+    left:-80px; top:-80px;
+    width: 350px; height:450px;
+    -ms-overflow-style: none;
+    text-align: center;
+}
+.chat2::-webkit-scrollbar{
+    display:none;
+}
+  
+img{ /*사진*/
+    border-radius: 5px;
+    margin-bottom: -5px;
+}
+
+/*header 하이퍼링크 색상,밑줄 없애기*/
+a { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+
