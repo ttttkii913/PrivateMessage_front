@@ -20,7 +20,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://hayeongyou.shop', // 환경 변수 사용
+        target: import.meta.env.VITE_API_URL,
         changeOrigin: true, // CORS 문제 해결
         rewrite: (path) => path.replace(/^\/api/, ''), // '/api' 제거 후 전달
       },
